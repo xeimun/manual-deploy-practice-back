@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/greetings_db
     username: greet
-    password: greet444
+    password: greet4444
     driver-class-name: org.postgresql.Driver
 
   jpa:
