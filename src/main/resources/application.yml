@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/greetings_db
+    username: greet
+    password: greet444
+  jpa:
+    hibernate:
+      ddl-auto: none  # ?? DB? ?? ???? ????? none ??
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
