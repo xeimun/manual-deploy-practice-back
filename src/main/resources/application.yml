@@ -3,10 +3,13 @@ spring:
     url: jdbc:postgresql://localhost:5432/greetings_db
     username: greet
     password: greet444
+    driver-class-name: org.postgresql.Driver
+
   jpa:
     hibernate:
       ddl-auto: none  # ?? DB? ?? ???? ????? none ??
-    show-sql: true
     properties:
       hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        show-sql: true
         format_sql: true
